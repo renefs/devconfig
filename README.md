@@ -8,7 +8,7 @@
 
     brew install python python3
 
-### Virtual env wrapper
+### Python Virtual env wrapper
 
     pip install virtualenv && virtualenvwrapper
     mkdir ~/virtualenvs
@@ -17,14 +17,11 @@
 
     brew install node && nvm
     mkdir ~/.nvm
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
 ## Ruby
 
-    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-
-Get the key from the rvm site: https://rvm.io/rvm/install
-
-    curl -sSL https://get.rvm.io | bash -s stable --ruby
+    brew install rbenv
 
 ## iTerm2
 
