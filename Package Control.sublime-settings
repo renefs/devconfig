@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoPEP8",
+		"Babel",
+		"CSV",
+		"Django",
+		"Django-Rest-Snippets",
+		"Dockerfile Syntax Highlighting",
+		"ESLint",
+		"Flask Completions",
+		"Log Highlight",
+		"Oceanic Next Color Scheme",
+		"Python 3",
+		"rainbow_csv",
+		"React ES6 Snippets",
+		"React IDE",
+		"SCSS",
+		"Theme - Brogrammer"
+	]
+}
