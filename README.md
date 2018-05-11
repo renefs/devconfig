@@ -6,12 +6,7 @@
 
 ## Python
 
-    brew install python python3
-
-### Python Virtual env wrapper
-
-    pip install virtualenv && virtualenvwrapper
-    mkdir ~/virtualenvs
+    brew install python3
 
 ## Node and nvm
 
