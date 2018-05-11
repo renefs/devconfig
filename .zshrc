@@ -2,7 +2,7 @@
 export PATH=$PATH:$HOME/bin:/usr/local/bin
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/rene/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -58,7 +58,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-DEFAULT_USER="rene"
+DEFAULT_USER=`whoami`
 prompt_context(){}
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -94,13 +94,6 @@ prompt_context(){}
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-#
-# Install Python virtualenv
-#
-export WORKON_HOME=~/virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #
 # Install rbenv: https://github.com/rbenv/rbenv
